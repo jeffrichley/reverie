@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# 🔴 Worlds are not engine. Nothing world-shaped belongs in this repository.
+worlds/
+*.world.json
