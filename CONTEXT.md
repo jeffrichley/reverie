@@ -4,135 +4,104 @@ The language Reverie is described in. **A glossary and nothing else** — no imp
 decisions, no scratch notes. Terms land here the moment they are settled, not in a batch at
 the end.
 
-**Reverie is a platform.** It runs worlds it did not author. So every term below is either
-something the platform owns, or something it explicitly leaves to a world — and which one is
-part of the definition.
+**Reverie is a platform.** It runs worlds it did not author, and it comes in **three layers**:
+the **core**, the **core plugins** installed on top of it, and the **seams** anyone else builds
+into.
+
+🔑 **Every term below says which layer it lives on, and that is part of its definition.** *A term
+filed in the wrong layer reads as true and quietly is not — which is the whole reason the file is
+split this way rather than alphabetically.*
+
+⚠️ **Terms that only make sense inside one particular world do not belong here at all.** A world
+declares its own nouns.
 
 ---
 
+# The platform
+
+**What is here no matter what is installed.**
+
 ## Platform
 
-**What keeps a world running when nobody is watching, and keeps every being's knowledge honest
-while it does.** It holds what actually happened, decides who could have learned it, advances
-time, refuses worlds that would break those guarantees, and loads plugins that extend all of
-it.
+**What keeps a world running when nobody is watching, and keeps the record of it honest while it
+does.** It holds what actually happened, advances time, and loads plugins that extend all of it.
 
 **It never knows what anything means.** It can enforce that a change is irreversible; it cannot
 know what that change *is*.
 
-🔑 **Checkable form, for settling arguments about where a thing belongs: the platform is
-everything that would be byte-identical if you deleted all world data and invented a completely
-different world.**
-
 ⇒ **The platform owns the shape of things. A world owns what things there are.**
 
-## World
+⚠️ **The old checkable form — *"everything that would be byte-identical if you deleted all world
+data and invented a completely different world"* — is retired as a test.** *It cannot tell the
+core from a plugin everybody happens to install: belief machinery in a traffic simulation is
+**unused**, not different, so it passes.* 🔑 **The test that works: delete the thing and see
+whether the rest still means anything.** It terminates — take ordering out and ground truth is
+meaningless; take ground truth out and belief is meaningless; take belief out and happenings,
+rewind and replay all still work — **so the core stops shrinking on its own.**
 
-**One setting and everything in it** — who is there, what has happened, what is true. A season
-on an island, a ship's crew on a long voyage, a street of houses.
+## Core
 
-**A world is itself a plugin**, so it is shareable, forkable and installable like any other.
+**The innermost layer — the shared machinery every plugin is built on.** Ground truth, ordering,
+the fact that the record only grows. **Nobody uses it directly.** It is what lets two plugins
+written by strangers talk about the same thing.
 
-⚠️ **A world's cast, its places and its things are the world's business.** The platform never
-names them, and a term that only makes sense inside one world does not belong in this glossary.
+🔑 **The core is the vocabulary, not the story.**
+
+⚠️ **"Engine" is retired as a name for anything.** *Reverie is a platform, and the platform is the
+whole delivered thing. The core is only its innermost layer.*
+
+## Core plugin
+
+**A plugin that ships in the box and is installed for you.** It occupies the same seam anyone
+else's plugin occupies, and can be replaced by one. **The being plugin is the flagship.**
+
+🔑 **The test that separates it from the core: could you take it out and still have Reverie?**
+**The slot can never be removed. The filler can always be replaced.** ⇒ *A core plugin is a
+default answer to a required question, never a mandatory component.*
+
+**Every default is the one that makes the platform do nothing, rather than the one that makes it
+do everything.** ⇒ *A wrong default produces a world that visibly does not work, never one that
+works and is lying.*
+
+**What is installed for you is disclosed to you** — *these are the defaults you are running on
+and you chose none of them.* **Visible, never blocking.**
+
+**Out of the box, every seam is filled and there is nobody in the world.** *A cast is a world's
+business, so anything arriving with people in it is a world, not the platform.*
+
+## Seam
+
+**A place where the platform requires a shape and refuses to supply the meaning.** Anyone may
+build into one without touching the core and without asking permission.
+
+**Four at the platform:** a **kind of thing a world can be made of** · a **kind of thing that can
+happen** · a **way to see** · a **whole world**.
+
+🔑 **Seams nest. A plugin opens seams of its own.** *Eclipse's Java tooling is itself a plugin,
+and other plugins plug into it.* ⇒ **So most of what looks like a missing platform seam turns out
+to be one plugin's internals** — the being plugin's three are below.
 
 ## Plugin
 
 **Something that extends Reverie without changing it** — installed, not merged; used without
 asking anyone's permission.
 
-**Three kinds are known:** a new way to **see** a world · a new **kind of thing that can
-happen** · **a whole world**. *Relationships and places are both plugins, having been ruled out
-of the platform.*
-
 🔑 **The line the platform holds: a plugin may add anything, and may never break a guarantee.**
-⚠️ *What the platform requires of a plugin's behaviour — and how it knows when one broke a
-promise — is not settled yet. **Replay is the known case where the platform promises something
-it cannot enforce**, so what it guarantees there is detection rather than prevention.*
+⚠️ *What exactly it may never do is not settled — see the map.*
 
-📌 **The model is Eclipse and VSCode**, deliberately: a thin core, an ecosystem, and no
-central permission to build on it.
+📌 **The model is Eclipse and VSCode**, deliberately: a thin core, an ecosystem, and no central
+permission to build on it. *Eclipse's own core is a workspace and a plugin loader; the IDE is
+plugins. **Reverie's core being small and dull is the model working**, not a warning sign.*
 
-## Being
+## World
 
-Anyone who could hold a belief. **"Could" is the whole test** — a being who is currently
-scenery is still a being, because they can wake. A thing that could never hold a belief is not
-a being, no matter how much it is acted upon.
+**One setting and everything in it** — what is there, what has happened, what is true. A season
+on an island, a ship's crew on a long voyage, a street of houses.
 
-## Belief
+**A world is itself a plugin**, so it is shareable, forkable and installable like any other.
 
-What a being holds true, together with **how it came to them** — observed, told, inferred,
-confabulated — and from whom.
-
-**Beliefs are the only social state the platform provides.** There is no relationship
-primitive: *"they are married"* is not stored, it is what you get when you read two beings'
-beliefs together.
-
-⇒ **Asymmetry is therefore free and normal.** He loves her, she tolerates him — both true, no
-special case. *A stored relationship would drift from the beliefs under it, and the world would
-end up insisting on a marriage neither party believes in.*
-
-📌 **Relationships are a plugin.** A world that wants them builds them on top of beliefs.
-
-## Confabulation
-
-**A belief a being formed to explain something they did not decide.**
-
-🔑 **Anything done to a being from outside is remembered by them as their own, and they cannot
-tell otherwise.** A forced act, a possessed hour, a possessed week — **one mechanism covers all
-three.**
-
-⚠️ **A world may choose the harsher version: a hole.** *She did it and does not know why.*
-**Confabulation is the default because it is what people actually do.**
-
-## Happening
-
-Something that occurred in a world. **The world's own record of it** — as distinct from what
-anyone believes about it.
-
-**Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
-— nobody looks for a person behind those.
-
-🔑 **A happening a being would attribute to a person requires a person inside the world to have
-done it.** ⇒ *So there is no speaking from nowhere — and in a world where there were, nobody
-could be lied to.*
-
-## Ground truth
-
-**What actually happened, held apart from what anyone thinks happened.**
-
-🔑 **The platform carries it, and no being can ever reach it.** *The world knows; nobody in it
-does.*
-
-⇒ Three things depend on it: **a run can be checked against reality** · **information spread
-can be measured** — tell one being something, count who knows a week later · and **a lie is
-only a lie if there is a fact for it to contradict.**
-
-## Witness list
-
-**Who saw a happening.** Every happening has one, and **only witnesses can come to know it.**
-
-🔑 **The platform requires the witness list. It does NOT require space.** *How the list gets
-computed is the world's business* — a room, a guest list, a chat thread, a phone line, a letter
-that arrives three days later.
-
-⇒ **The phone call is why.** Two beings exchange something with no shared location at all. If
-geography were the platform's primitive, that call would have to be faked into a room that does
-not exist — and a letter would be worse.
-
-📌 **Places are a plugin**, exactly like relationships. A world that wants geography brings it.
-
-## Liveness
-
-Whether a being is **alive** (an inner life, running) or **scenery** (a name, a job and a
-clock; a life happening with nobody home).
-
-🔑 **Liveness is a MODE a being is in, not a status they acquire.** The same being is alive on
-Tuesday and scenery on Wednesday. ⇒ *If it were acquired, worlds would ratchet — met once,
-alive forever — and every world would eventually be expensive everywhere.*
-
-⚠️ *What wakes a being, what puts them back to sleep, and what is true of a sleeping one are
-not yet settled — see the map.*
+⚠️ **A world's cast, its places and its things are the world's business.** The platform never
+names them.
 
 ## Author
 
@@ -144,52 +113,39 @@ did.** Generation is a default, never an override.
 
 🔑 **An author is either outside the world or someone in it. There is no third position.**
 Outside, they act on the world — *cause a happening* — or on its record — *rewind, edit, change
-the rules*. Inside, see **Possession**.
+the rules*. **Inside requires beings to exist** — see **Possession**, which arrives with the
+being plugin.
 
-**They see everything: ground truth, and every being's beliefs.** ⚠️ *A world nobody can see
-inside cannot be checked, and how far a lie travelled cannot be measured without reading who
-believes it.* **Observing leaves no trace** — no record of it, and no being can ever come to
-know it happened.
+**Four verbs are the platform's: observe · cause a happening · author · control time.** *Become
+someone* is a fifth that comes with beings.
 
-🔑 **Asking and compelling are two different verbs, never one verb with a strength dial.** *If
-asking sometimes simply works, nobody can tell whether she agreed or obeyed — and that
-difference is the whole reason to be there.* **Whether beings may refuse at all is a world's
-setting.**
+**Observing leaves no trace** — no record of it, and nothing in the world can ever come to know
+it happened.
 
 ⚠️ **Nothing an author does is reversible except by rewind, and the rewind is recorded.**
 
-## Possession
+## Happening
 
-**Being someone in a world.** You see only what she knows · **nobody can tell it is you** · and
-**she keeps what you did as her own** (see **Confabulation**).
+Something that occurred in a world. **The world's own record of it** — as distinct from what
+anyone makes of it.
 
-🔑 **A stranger and a lifelong resident are the same verb** — the only difference is how much
-past the body has, and a walk-on may be created on arrival. ⇒ *You drift from one to the other
-by turning up: a stranger seen five times is not a stranger.*
+**Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
+— nobody looks for a person behind those.
 
-**One body at a time.** *Two at once is the union of two people's knowledge, which is not being
-either of them.*
+🔑 *(being plugin)* **A happening a being would attribute to a person requires a person inside the
+world to have done it.** ⇒ *So there is no speaking from nowhere — and in a world where there
+were, nobody could be lied to.*
 
-## Refusal
+## Ground truth
 
-Something a world must supply, which the platform **will not start without and will not
-default**.
+**What actually happened, held apart from what anything in the world makes of it.**
 
-🔑 **The test for one — and it is a test, not a list: a default would fail SILENTLY.** *A
-missing witness rule does not crash. It produces a world where everyone is omniscient and
-nothing looks wrong.*
+🔑 **The platform carries it, and nothing inside can reach it.** *The world knows; nobody in it
+does.*
 
-**Three are known: how witnesses are computed · the floor · what the simulation may write as
-against the author.** ⚠️ **"These three, and probably others"** — three were found by looking,
-and an enumeration presented as complete gets believed.
-
-## Floor
-
-**How empty a world may get.** Beings can leave and can die; **a world cannot end, and cannot
-empty below the floor its author set.**
-
-⇒ *Without it, the interesting thing about a world that runs unattended is also the thing that
-destroys it.*
+⇒ **A run can be checked against reality.** *(being plugin)* Two further consequences arrive with
+beings: **information spread can be measured** — tell one being something, count who knows a week
+later — and **a lie is only a lie if there is a fact for it to contradict.**
 
 ## Ordering
 
@@ -197,7 +153,7 @@ destroys it.*
 without it, and *"she already knew by Tuesday"* is unanswerable.
 
 ⚠️ **The platform does not know what a tick MEANS.** A day, a turn, an hour — that is the
-world's. *Same shape as the witness list: require the structure, leave the meaning.*
+world's. *Require the structure, leave the meaning.*
 
 ## Append-only
 
@@ -206,7 +162,7 @@ happened.
 
 **The author may rewind — and the rewind is itself recorded.** ⇒ *A truth layer that can be
 silently edited is not a truth layer.* ⚠️ **The cost, stated rather than buried: worlds carry
-scars.** Every rewind is visible to the author forever, and to nobody inside.
+scars.** Every rewind is visible to the author forever, and to nothing inside.
 
 ## Replay
 
@@ -222,3 +178,125 @@ you find out.** ⚠️ *A silently non-replayable world looks fine and quietly i
 
 📌 Consequence: **anything genuinely random — a language model's output included — is captured
 on the way past**, or the promise is a lie the first time you rerun.
+
+---
+
+# The being plugin
+
+**The flagship core plugin.** Installed for you, and removable. **Take it out and there is no
+witness, no liveness, no being seen at all** — what remains is a world that runs unattended, only
+ever adds, and can be rewound.
+
+⚠️ **Everything in this section is therefore contingent.** A world of traffic, or weather, or a
+factory floor has none of it, and is still a Reverie world.
+
+**It opens three seams of its own:** a **mind** — what a being does with what she believes · a
+**witness rule** — how the witness list gets computed, which is where geography lives · a
+**liveness rule** — who is awake, and what wakes them.
+
+## Being
+
+Anyone who could hold a belief. **"Could" is the whole test** — a being who is currently
+scenery is still a being, because they can wake. A thing that could never hold a belief is not
+a being, no matter how much it is acted upon.
+
+## Belief
+
+What a being holds true, together with **how it came to them** — observed, told, inferred,
+confabulated — and from whom.
+
+**Beliefs are the only social state there is.** There is no relationship primitive: *"they are
+married"* is not stored, it is what you get when you read two beings' beliefs together.
+
+⇒ **Asymmetry is therefore free and normal.** He loves her, she tolerates him — both true, no
+special case. *A stored relationship would drift from the beliefs under it, and the world would
+end up insisting on a marriage neither party believes in.*
+
+📌 **Relationships are a plugin built on this one.**
+
+## Witness list
+
+**Who saw a happening.** Every happening has one, and **only witnesses can come to know it.**
+
+🔑 **The witness list is required. Space is not.** *How the list gets computed is the **witness
+rule**, which is a seam* — a room, a guest list, a chat thread, a phone line, a letter that
+arrives three days later.
+
+⇒ **The phone call is why.** Two beings exchange something with no shared location at all. If
+geography were a primitive, that call would have to be faked into a room that does not exist —
+and a letter would be worse.
+
+📌 **Places are a witness rule.** A world that wants geography installs one.
+
+⚠️ **Its fail-closed default is the empty list — nobody learns anything.** *A world where nobody
+knows anything is visibly broken inside a minute. A world where everyone knows everything looks
+like a well-informed island and is silently wrong forever.*
+
+## Liveness
+
+Whether a being is **alive** (an inner life, running) or **scenery** (a name, a job and a
+clock; a life happening with nobody home).
+
+🔑 **Liveness is a MODE a being is in, not a status they acquire.** The same being is alive on
+Tuesday and scenery on Wednesday. ⇒ *If it were acquired, worlds would ratchet — met once,
+alive forever — and every world would eventually be expensive everywhere.*
+
+⚠️ *What wakes a being, what puts them back to sleep, and what is true of a sleeping one are the
+**liveness rule**, and are not yet settled — see the map. **Cost tracks this and not
+population***: the same twenty-five beings cost several times more in a busy hour than a quiet
+one.
+
+## Confabulation
+
+**A belief a being formed to explain something they did not decide.**
+
+🔑 **Anything done to a being from outside is remembered by them as their own, and they cannot
+tell otherwise.** A forced act, a possessed hour, a possessed week — **one mechanism covers all
+three.**
+
+⚠️ **A world may choose the harsher version: a hole.** *She did it and does not know why.*
+**Confabulation is the default because it is what people actually do.**
+
+## Possession
+
+**Being someone in a world.** You see only what she knows · **nobody can tell it is you** · and
+**she keeps what you did as her own** (see **Confabulation**).
+
+🔑 **A stranger and a lifelong resident are the same verb** — the only difference is how much
+past the body has, and a walk-on may be created on arrival. ⇒ *You drift from one to the other
+by turning up: a stranger seen five times is not a stranger.*
+
+**One body at a time.** *Two at once is the union of two people's knowledge, which is not being
+either of them.*
+
+🔑 **Asking and compelling are two different verbs, never one verb with a strength dial.** *If
+asking sometimes simply works, nobody can tell whether she agreed or obeyed — and that
+difference is the whole reason to be there.* **Whether beings may refuse at all is a world's
+setting.**
+
+## Floor
+
+**How empty a world may get.** Beings can leave and can die; **a world cannot empty below the
+floor its author set.**
+
+⇒ *Without it, the interesting thing about a world that runs unattended is also the thing that
+destroys it.*
+
+⚠️ **This term straddles the layers and is filed here provisionally.** *"A world cannot end" looks
+like the core's; "how empty, of what" is whatever supplies a population. Its fail-closed default
+is **one**, which is the core half restated.*
+
+---
+
+## Retired terms
+
+Kept only so that a word appearing in an older ticket can be looked up.
+
+- **Refusal** — *something a world had to supply that the platform would not start without and
+  would not default.* **Retired**: it rested on a missing witness rule producing omniscience,
+  and a missing one produces silence instead. What replaced it is the fail-closed default rule
+  under **Core plugin**, plus disclosure.
+- **Engine** — never meant anything distinct from **Platform** or **Core**, and meant both at
+  different times. Use those.
+- **Visitor** — an outside-but-present third position. **Retired while settling the author's
+  verbs**: you are either outside the world or someone in it.
