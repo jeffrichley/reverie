@@ -33,4 +33,55 @@ jobs:
       - uses: extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3  # v4
       - run: uv sync --locked --all-packages
       - run: just check
+      # Upload coverage to Codecov (Linux only — one upload per run). Uses the
+      # CODECOV_TOKEN secret if set, else the account-wide Codecov GitHub App
+      # (tokenless). Never reddens CI: fail_ci_if_error is false.
+      - name: Upload coverage to Codecov
+        if: matrix.os == 'ubuntu-latest'
+        uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f  # v7.0.0
+        with:
+          files: ./coverage.xml
+          fail_ci_if_error: false
+          token: ${{ secrets.CODECOV_TOKEN }}
+      # Patch-coverage gate: fail PRs whose diff drops below 80% covered.
+      # PRs only (push-to-main has no meaningful base) and Linux only (the
+      # coverage.xml shape is identical across OSes).
+      - name: diff-cover patch-level gate
+        if: github.event_name == 'pull_request' && matrix.os == 'ubuntu-latest'
+        run: uv run diff-cover coverage.xml --compare-branch=origin/${{ github.base_ref }} --fail-under=80
       - run: uv cache prune --ci
+
+  # Slow-marked tests are excluded from the default lane (`-m 'not slow'`) and
+  # run here instead. There are none yet; the job exists so the required status
+  # context exists from day one, rather than being bolted on later when the
+  # ruleset would already be referencing a context that never reported.
+  slow-tests-windows:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+      - uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b  # v8.1.0
+        with:
+          enable-cache: true
+          python-version: "3.12"
+      - uses: extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3  # v4
+      - run: uv sync --locked --all-packages
+      # --no-cov: the project-wide coverage floor is enforced by `check` above,
+      # which runs the full suite. `|| exit 0` is deliberately NOT used — an
+      # empty selection exits 5, which is handled explicitly below so a broken
+      # marker can never be mistaken for "no slow tests".
+      - name: Run slow-marked tests
+        shell: bash
+        run: |
+          set +e
+          uv run --no-sync pytest packages/reverie/tests -m slow -v --no-cov
+          rc=$?
+          set -e
+          if [ "$rc" = "5" ]; then
+            echo "No slow-marked tests collected. That is the expected state today."
+            exit 0
+          fi
+          exit "$rc"

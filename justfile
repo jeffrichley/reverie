@@ -15,6 +15,11 @@ default:
 # Composite gate (recommended before push)
 check: lint typecheck test
 
+# Install the repo's git hooks into this clone/worktree. Hooks live in
+# .githooks/ and are wired via core.hooksPath, so this is once per clone.
+install-hooks:
+    git config core.hooksPath .githooks
+
 # Developer convenience: apply lint auto-fixes + formatter
 fix:
     uv run --no-sync ruff check --fix packages/reverie

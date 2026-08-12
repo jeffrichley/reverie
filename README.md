@@ -1,5 +1,15 @@
 # Reverie
 
+[![CI](https://github.com/jeffrichley/reverie/actions/workflows/ci.yml/badge.svg)](https://github.com/jeffrichley/reverie/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/jeffrichley/reverie/branch/main/graph/badge.svg)](https://codecov.io/gh/jeffrichley/reverie)
+[![PyPI](https://img.shields.io/pypi/v/reverie-engine.svg)](https://pypi.org/project/reverie-engine/)
+[![Python versions](https://img.shields.io/pypi/pyversions/reverie-engine.svg)](https://pypi.org/project/reverie-engine/)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
+[![built by agent beings](https://img.shields.io/badge/built%20by-agent%20beings%20%F0%9F%AA%B6-8A2BE2.svg)](#)
+
 **A world that keeps living when you are not there, made of beings who know only what
 reached them.**
 
@@ -61,8 +71,12 @@ Requires [uv](https://docs.astral.sh/uv/) and [just](https://github.com/casey/ju
 
 ```bash
 uv sync --all-packages     # create the environment
+just install-hooks         # wire the pre-push gate (once per clone)
 just check                 # lint + typecheck + tests, the same gate CI runs
 ```
+
+`just check` is strict by design: ruff with Google-convention docstrings, mypy
+`strict = true`, and an 85% project coverage floor with an 80% patch gate on PRs.
 
 `just` on its own lists the available recipes. A `pre-push` hook runs the same gate before
 anything leaves your machine; it is wired automatically via `core.hooksPath`.

@@ -7,4 +7,5 @@ import reverie
 
 
 def test_package_imports() -> None:
+    """The package imports and carries its module docstring."""
     assert reverie.__doc__
