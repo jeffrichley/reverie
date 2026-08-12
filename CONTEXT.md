@@ -94,3 +94,56 @@ last.
 
 ⇒ **Generation may fill anything the author did not pin, and may never overturn anything they
 did.** Generation is a default, never an override.
+
+## Refusal
+
+Something a world must supply, which the platform **will not start without and will not
+default**.
+
+🔑 **The test for one — and it is a test, not a list: a default would fail SILENTLY.** *A
+missing witness rule does not crash. It produces a world where everyone is omniscient and
+nothing looks wrong.*
+
+**Three are known: how witnesses are computed · the floor · what the simulation may write as
+against the author.** ⚠️ **"These three, and probably others"** — three were found by looking,
+and an enumeration presented as complete gets believed.
+
+## Floor
+
+**How empty a world may get.** Beings can leave and can die; **a world cannot end, and cannot
+empty below the floor its author set.**
+
+⇒ *Without it, the interesting thing about a world that runs unattended is also the thing that
+destroys it.*
+
+## Ordering
+
+**What came before what.** The platform owns this and requires it — provenance is worthless
+without it, and *"she already knew by Tuesday"* is unanswerable.
+
+⚠️ **The platform does not know what a tick MEANS.** A day, a turn, an hour — that is the
+world's. *Same shape as the witness list: require the structure, leave the meaning.*
+
+## Append-only
+
+**The simulation may only ever add to ground truth.** It can never change what already
+happened.
+
+**The author may rewind — and the rewind is itself recorded.** ⇒ *A truth layer that can be
+silently edited is not a truth layer.* ⚠️ **The cost, stated rather than buried: worlds carry
+scars.** Every rewind is visible to the author forever, and to nobody inside.
+
+## Replay
+
+**Same starting state, same inputs, same week.** How a run gets checked against reality more
+than once, how *"what would have happened if I had not walked in"* is answerable, and the only
+way to debug a world at all.
+
+🔴 **Promised only as far as the plugin set allows.** *A plugin that ignores the seed voids it,
+and the platform has no say* — it cannot promise determinism it does not control.
+
+🔑 **So the guarantee the platform actually makes is detection: when a plugin breaks replay,
+you find out.** ⚠️ *A silently non-replayable world looks fine and quietly is not.*
+
+📌 Consequence: **anything genuinely random — a language model's output included — is captured
+on the way past**, or the promise is a lie the first time you rerun.
