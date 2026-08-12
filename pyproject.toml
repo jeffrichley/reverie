@@ -6,7 +6,9 @@
 members = ["packages/*"]
 
 [tool.uv.sources]
-reverie = { workspace = true }
+# Keyed on the DISTRIBUTION name (reverie-engine), not the directory
+# (packages/reverie) or the import name (reverie). All three differ on purpose.
+reverie-engine = { workspace = true }
 
 [dependency-groups]
 # Dev tools only; real package deps live in member pyprojects.
