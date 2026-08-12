@@ -12,17 +12,46 @@ part of the definition.
 
 ## Platform
 
-Reverie itself. **Everything that would be byte-identical if you deleted all world data and
-invented a completely different world.** The platform owns the shape of things; a world owns
-what things there are.
+**What keeps a world running when nobody is watching, and keeps every being's knowledge honest
+while it does.** It holds what actually happened, decides who could have learned it, advances
+time, refuses worlds that would break those guarantees, and loads plugins that extend all of
+it.
+
+**It never knows what anything means.** It can enforce that a change is irreversible; it cannot
+know what that change *is*.
+
+🔑 **Checkable form, for settling arguments about where a thing belongs: the platform is
+everything that would be byte-identical if you deleted all world data and invented a completely
+different world.**
+
+⇒ **The platform owns the shape of things. A world owns what things there are.**
 
 ## World
 
-Everything one setting contains — its beings, what has happened, what is true in it. **A world
-is itself a plugin**: shareable, forkable, installable.
+**One setting and everything in it** — who is there, what has happened, what is true. A season
+on an island, a ship's crew on a long voyage, a street of houses.
 
-⚠️ **A world's cast, its places and its things are the world's business, not the platform's.**
-The platform never names them.
+**A world is itself a plugin**, so it is shareable, forkable and installable like any other.
+
+⚠️ **A world's cast, its places and its things are the world's business.** The platform never
+names them, and a term that only makes sense inside one world does not belong in this glossary.
+
+## Plugin
+
+**Something that extends Reverie without changing it** — installed, not merged; used without
+asking anyone's permission.
+
+**Three kinds are known:** a new way to **see** a world · a new **kind of thing that can
+happen** · **a whole world**. *Relationships and places are both plugins, having been ruled out
+of the platform.*
+
+🔑 **The line the platform holds: a plugin may add anything, and may never break a guarantee.**
+⚠️ *What the platform requires of a plugin's behaviour — and how it knows when one broke a
+promise — is not settled yet. **Replay is the known case where the platform promises something
+it cannot enforce**, so what it guarantees there is detection rather than prevention.*
+
+📌 **The model is Eclipse and VSCode**, deliberately: a thin core, an ecosystem, and no
+central permission to build on it.
 
 ## Being
 
