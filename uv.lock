@@ -8,7 +8,7 @@ resolution-markers = [
 
 [manifest]
 members = [
-    "reverie",
+    "reverie-engine",
 ]
 
 [manifest.dependency-groups]
@@ -322,7 +322,7 @@ wheels = [
 ]
 
 [[package]]
-name = "reverie"
+name = "reverie-engine"
 source = { editable = "packages/reverie" }
 
 [[package]]

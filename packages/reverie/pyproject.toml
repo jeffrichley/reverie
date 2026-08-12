@@ -1,5 +1,9 @@
 [project]
-name = "reverie"
+# Distribution name, not the import name. `reverie` is registered on PyPI by
+# someone who never published a file -- the JSON API 404s because there are no
+# releases, but /simple/reverie/ returns 200 with project-status: active, so the
+# name cannot be claimed. The import name below stays `reverie`.
+name = "reverie-engine"
 dynamic = ["version"]
 description = "A world that keeps living when you are not there, made of beings who know only what reached them."
 license = "MIT"
