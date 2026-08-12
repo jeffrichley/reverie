@@ -74,10 +74,28 @@ end up insisting on a marriage neither party believes in.*
 
 📌 **Relationships are a plugin.** A world that wants them builds them on top of beliefs.
 
+## Confabulation
+
+**A belief a being formed to explain something they did not decide.**
+
+🔑 **Anything done to a being from outside is remembered by them as their own, and they cannot
+tell otherwise.** A forced act, a possessed hour, a possessed week — **one mechanism covers all
+three.**
+
+⚠️ **A world may choose the harsher version: a hole.** *She did it and does not know why.*
+**Confabulation is the default because it is what people actually do.**
+
 ## Happening
 
 Something that occurred in a world. **The world's own record of it** — as distinct from what
 anyone believes about it.
+
+**Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
+— nobody looks for a person behind those.
+
+🔑 **A happening a being would attribute to a person requires a person inside the world to have
+done it.** ⇒ *So there is no speaking from nowhere — and in a world where there were, nobody
+could be lied to.*
 
 ## Ground truth
 
@@ -123,6 +141,34 @@ last.
 
 ⇒ **Generation may fill anything the author did not pin, and may never overturn anything they
 did.** Generation is a default, never an override.
+
+🔑 **An author is either outside the world or someone in it. There is no third position.**
+Outside, they act on the world — *cause a happening* — or on its record — *rewind, edit, change
+the rules*. Inside, see **Possession**.
+
+**They see everything: ground truth, and every being's beliefs.** ⚠️ *A world nobody can see
+inside cannot be checked, and how far a lie travelled cannot be measured without reading who
+believes it.* **Observing leaves no trace** — no record of it, and no being can ever come to
+know it happened.
+
+🔑 **Asking and compelling are two different verbs, never one verb with a strength dial.** *If
+asking sometimes simply works, nobody can tell whether she agreed or obeyed — and that
+difference is the whole reason to be there.* **Whether beings may refuse at all is a world's
+setting.**
+
+⚠️ **Nothing an author does is reversible except by rewind, and the rewind is recorded.**
+
+## Possession
+
+**Being someone in a world.** You see only what she knows · **nobody can tell it is you** · and
+**she keeps what you did as her own** (see **Confabulation**).
+
+🔑 **A stranger and a lifelong resident are the same verb** — the only difference is how much
+past the body has, and a walk-on may be created on arrival. ⇒ *You drift from one to the other
+by turning up: a stranger seen five times is not a stranger.*
+
+**One body at a time.** *Two at once is the union of two people's knowledge, which is not being
+either of them.*
 
 ## Refusal
 
