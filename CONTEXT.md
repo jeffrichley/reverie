@@ -87,7 +87,17 @@ to be one plugin's internals** — the being plugin's three are below.
 asking anyone's permission.
 
 🔑 **The line the platform holds: a plugin may add anything, and may never break a guarantee.**
-⚠️ *What exactly it may never do is not settled — see the map.*
+**Every guarantee is held one of two ways — impossible by design, or always caught
+afterwards — and anything held by neither is a request, and says so.** *A guarantee that
+depends on a plugin behaving is not a guarantee.* **Impossible:** editing the past · forging
+order or origin · undoing a scar · reading what another plugin did not expose ·
+writing except by causing a happening · granting anything below you that you do not hold
+yourself — *seams nest, and nothing plugged into a plugin reaches more than the plugin
+itself.* **Caught:** breaking replay · contradicting a pin. **Asked:** keeping the
+vocabulary you exposed stable and honest for the strangers reading it.
+
+**A plugin's facts are sealed by default and exposed by its choice — the core withholds
+nothing; it simply holds.**
 
 📌 **The model is Eclipse and VSCode**, deliberately: a thin core, an ecosystem, and no central
 permission to build on it. *Eclipse's own core is a workspace and a plugin loader; the IDE is
@@ -110,6 +120,10 @@ last.
 
 ⇒ **Generation may fill anything the author did not pin, and may never overturn anything they
 did.** Generation is a default, never an override.
+
+**Pinning is the author's verb alone.** *A pin is the author's rank made durable, and a plugin
+has no rank* — a plugin's facts are protected by ownership instead, and coherence from
+generation it may request, never command.
 
 🔑 **An author is either outside the world or someone in it. There is no third position.**
 Outside, they act on the world — *cause a happening* — or on its record — *rewind, edit, change
@@ -193,6 +207,12 @@ factory floor has none of it, and is still a Reverie world.
 **It opens three seams of its own:** a **mind** — what a being does with what she believes · a
 **witness rule** — how the witness list gets computed, which is where geography lives · a
 **liveness rule** — who is awake, and what wakes them.
+
+**Its flagship promise, made to its own mind seam: a mind is never handed more than what
+reached its being.** The plugin's own code reads the public record — that is what a witness
+rule is for — and a mind receives only the witnessed subset. 🔑 *This promise is the
+being plugin's, not the platform's — beings do not exist at the platform level — and it
+is the clause that makes lying possible.*
 
 ## Being
 
