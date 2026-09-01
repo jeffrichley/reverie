@@ -193,6 +193,24 @@ you find out.** ⚠️ *A silently non-replayable world looks fine and quietly i
 📌 Consequence: **anything genuinely random — a language model's output included — is captured
 on the way past**, or the promise is a lie the first time you rerun.
 
+## Cost
+
+**A world costs what happened in it, never what it contains.** The quiet week is free: a week
+where nothing expensive happened costs almost nothing to have run, and the size of the world
+does not change that — *a million scenery beings passing a quiet Tuesday cost what one does.*
+
+🔑 **A step takes what it takes.** There is no falling behind — *"behind" presumes a schedule
+the world owes somebody, and it owes nobody anything.* An expensive week simply takes longer,
+and costs more, to have run.
+
+**The record never fills, and whatever is slow in a world, it is never the record** — the cost
+of a tick is the cost of what happened in it.
+
+⚠️ **No number appears anywhere in the promise.** The ceiling belongs to the installed plugin
+set — a vectorized crowd sim holds millions, an LLM-backed conversation holds a dinner table,
+and both are Reverie worlds. *Every published number in the field is a configuration somebody
+chose.*
+
 ---
 
 # The being plugin
@@ -213,6 +231,11 @@ reached its being.** The plugin's own code reads the public record — that is w
 rule is for — and a mind receives only the witnessed subset. 🔑 *This promise is the
 being plugin's, not the platform's — beings do not exist at the platform level — and it
 is the clause that makes lying possible.*
+
+**However long a moment takes to compute, the world inside it stays whole.** A step that takes
+fifteen minutes to make does not leave the world deaf for fifteen minutes: someone can arrive
+mid-happening and be seen, and what happens bends around them — *three people talking privately
+change the subject when the one on the outs walks up.*
 
 ## Being
 
@@ -266,6 +289,11 @@ alive forever — and every world would eventually be expensive everywhere.*
 population***: the same twenty-five beings cost several times more in a busy hour than a quiet
 one.
 
+🔑 **Scenery is free; aliveness is metered** — and the meter reads what happened, never how many
+exist. **The world never demotes anyone to pay a bill**: making a world cheaper — people to
+scenery, people out — is the author's act alone. ⇒ *The failure mode of an expensive world is
+time and money, never fidelity.*
+
 ## Confabulation
 
 **A belief a being formed to explain something they did not decide.**
@@ -293,6 +321,10 @@ either of them.*
 asking sometimes simply works, nobody can tell whether she agreed or obeyed — and that
 difference is the whole reason to be there.* **Whether beings may refuse at all is a world's
 setting.**
+
+**The world never outruns you without consent.** While you are someone, your reply is the clock
+by default; whether a silence can be an answer — a council that votes without you — is a
+world's setting.
 
 ## Floor
 
