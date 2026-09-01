@@ -37,7 +37,7 @@ core from a plugin everybody happens to install: belief machinery in a traffic s
 **unused**, not different, so it passes.* 🔑 **The test that works: delete the thing and see
 whether the rest still means anything.** It terminates — take ordering out and ground truth is
 meaningless; take ground truth out and belief is meaningless; take belief out and happenings,
-rewind and replay all still work — **so the core stops shrinking on its own.**
+branching and replay all still work — **so the core stops shrinking on its own.**
 
 ## Core
 
@@ -93,8 +93,9 @@ depends on a plugin behaving is not a guarantee.* **Impossible:** editing the pa
 order or origin · undoing a scar · reading what another plugin did not expose ·
 writing except by causing a happening · granting anything below you that you do not hold
 yourself — *seams nest, and nothing plugged into a plugin reaches more than the plugin
-itself.* **Caught:** breaking replay · contradicting a pin. **Asked:** keeping the
-vocabulary you exposed stable and honest for the strangers reading it.
+itself.* **Caught:** breaking replay. **Asked:** keeping the
+vocabulary you exposed stable and honest for the strangers reading it — and honoring what the
+author stated, which the generation that ships in the box does.
 
 **A plugin's facts are sealed by default and exposed by its choice — the core withholds
 nothing; it simply holds.**
@@ -118,17 +119,16 @@ names them.
 Whoever owns a world. **The author outranks the simulation always**, regardless of who wrote
 last.
 
-⇒ **Generation may fill anything the author did not pin, and may never overturn anything they
-did.** Generation is a default, never an override.
-
-**Pinning is the author's verb alone.** *A pin is the author's rank made durable, and a plugin
-has no rank* — a plugin's facts are protected by ownership instead, and coherence from
-generation it may request, never command.
+⇒ **Generation may fill anything the author did not state, and the generation that ships in
+the box honors what they did.** Generation is a default, never an override. ⚠️ *That is
+conduct, not machinery: an overturned authorial fact is **always visible to the author who
+looks, never caught by the platform** — the author manages their own data, sees all of it, and
+replaces a plugin that keeps drifting it. There is no pin* (see **Retired terms**).
 
 🔑 **An author is either outside the world or someone in it. There is no third position.**
-Outside, they act on the world — *cause a happening* — or on its record — *rewind, edit, change
-the rules*. **Inside requires beings to exist** — see **Possession**, which arrives with the
-being plugin.
+Outside, they act on the world — *cause a happening*, *change the rules going forward* — or on
+its record — *branch* (see **Append-only**) — and nothing they do edits the past. **Inside
+requires beings to exist** — see **Possession**, which arrives with the being plugin.
 
 **Four verbs are the platform's: observe · cause a happening · author · control time.** *Become
 someone* is a fifth that comes with beings.
@@ -136,7 +136,9 @@ someone* is a fifth that comes with beings.
 **Observing leaves no trace** — no record of it, and nothing in the world can ever come to know
 it happened.
 
-⚠️ **Nothing an author does is reversible except by rewind, and the rewind is recorded.**
+⚠️ **Nothing an author does is reversible except by branching, and the branch is recorded.**
+A branch sweeps everything after its point — the author's own acts included — *so no
+authorial residue ever steers a regrown week.*
 
 ## Happening
 
@@ -174,9 +176,22 @@ world's. *Require the structure, leave the meaning.*
 **The simulation may only ever add to ground truth.** It can never change what already
 happened.
 
-**The author may rewind — and the rewind is itself recorded.** ⇒ *A truth layer that can be
-silently edited is not a truth layer.* ⚠️ **The cost, stated rather than buried: worlds carry
-scars.** Every rewind is visible to the author forever, and to nothing inside.
+**The author may branch — there is no other way to touch the past, and "rewind" was always
+this.** The author picks a moment; a new timeline grows fresh from there — fresh dice, no
+promise the week comes back the same, *because the branch itself is a cause*. **No surgical
+edit exists**: "remove the ravine, keep the vote" is not a thing anyone can say — beliefs are
+world-state and revert with everything else, so nothing ever orphans.
+
+⚠️ **Nothing is ever lost.** The old branch survives — frozen, it is the **scar**: the fork
+point plus the abandoned timeline, visible to the author forever, invisible from inside; kept
+running, it is a sibling world, which forkable worlds already allow. A frozen branch costs
+nothing, because nothing happens in it. ⇒ *A truth layer that can be silently edited is not a
+truth layer — and a branch is recorded, never silent.*
+
+**A branch is never refused — an irrevocable happening included.** What escaped the world
+stays escaped, the record never lies about it, and the new branch simply does not contain it.
+**How many days and happenings a branch abandons is always knowable before branching**;
+showing it is a view's business.
 
 ## Replay
 
@@ -370,3 +385,12 @@ Kept only so that a word appearing in an older ticket can be looked up.
   flipped by waking.* **Retired while resolving liveness**: there is no mode — a being is as
   alive as the mind she is running, and nobody is ever absent. The word survives only
   informally, for a being on the cheapest mind.
+- **Pin** — *an author's mark on a fact that generation could never overturn, always caught.*
+  **Retired while resolving what a branch reaches**: it existed to save the author from the
+  plugins they chose, and the author manages their own data — ownership walls plugins off from
+  each other, the author sees everything and outranks everything, and a plugin that drifts an
+  authored fact is replaced, not refereed. A "lock this fact" feature is any plugin's to offer
+  over its own data.
+- **Rewind** — *going back.* **Retired as a name**: there was never a rewind, only a
+  **branch** — a new timeline grown fresh from a chosen moment, with the old one kept as scar
+  or sibling. "Undo" implied the past could be edited; nothing edits the past.
