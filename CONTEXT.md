@@ -276,6 +276,27 @@ end up insisting on a marriage neither party believes in.*
 
 📌 **Relationships are a plugin built on this one.**
 
+## Utterance
+
+Something a being said. **A happening like any other** — ordered, witnessed, origin attached —
+and **only the saying is ever recorded: what she held while saying it reached nobody.**
+
+🔑 **Nothing anywhere requires an utterance to match a belief — there is no machinery that
+could even check.** ⇒ *Most lying is not inventing facts. It is saying a true-shaped thing you
+do not hold, to a chosen audience — she knows exactly how she feels, and says otherwise,
+because of who is listening and what it is worth to her.*
+
+**The same words from a different asker are a different happening.** Audience is who witnessed
+the saying — so a different answer is always possible, and nothing more is promised. *What she
+would say to you is not what she would say to Ben.*
+
+**The author sees the gap live** — ground truth holds the saying, every belief holds the
+holding — *visible to an author who looks, never caught by the platform.*
+
+🔑 **Lying has no floor.** The cheapest mind can say what it does not hold — *the lie is
+cheap, only the sentence is expensive.* ⚠️ *What shapes an utterance — audience, incentive,
+fear, trust, personality — is the mind's business, not this glossary's.*
+
 ## Witness list
 
 **Who saw a happening.** Every happening has one, and **only witnesses can come to know it.**
