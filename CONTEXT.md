@@ -224,7 +224,7 @@ factory floor has none of it, and is still a Reverie world.
 
 **It opens three seams of its own:** a **mind** — what a being does with what she believes · a
 **witness rule** — how the witness list gets computed, which is where geography lives · a
-**liveness rule** — who is awake, and what wakes them.
+**liveness rule** — what moves a being between minds.
 
 **Its flagship promise, made to its own mind seam: a mind is never handed more than what
 reached its being.** The plugin's own code reads the public record — that is what a witness
@@ -239,9 +239,13 @@ change the subject when the one on the outs walks up.*
 
 ## Being
 
-Anyone who could hold a belief. **"Could" is the whole test** — a being who is currently
-scenery is still a being, because they can wake. A thing that could never hold a belief is not
-a being, no matter how much it is acted upon.
+Anyone who could hold a belief. **"Could" is the whole test** — a being running the cheapest
+mind is still a being: hand her a deeper one and she was always there. A thing that could never
+hold a belief is not a being, no matter how much it is acted upon.
+
+⚠️ **Not everything that moves in a world is a being.** A crowd that could never believe —
+townsfolk who are set dressing by construction — is another plugin's kind of thing, not a
+cheap being.
 
 ## Belief
 
@@ -277,22 +281,32 @@ like a well-informed island and is silently wrong forever.*
 
 ## Liveness
 
-Whether a being is **alive** (an inner life, running) or **scenery** (a name, a job and a
-clock; a life happening with nobody home).
+**How alive a being is, is which mind she is running.** A name, a job and a clock · a tick that
+gossips and holds grudges · a model that finds fresh words — all of them are minds, and a being
+on the cheapest is exactly as *present* as one on the dearest: she witnesses what reaches her,
+and makes of it what her mind can.
 
-🔑 **Liveness is a MODE a being is in, not a status they acquire.** The same being is alive on
-Tuesday and scenery on Wednesday. ⇒ *If it were acquired, worlds would ratchet — met once,
-alive forever — and every world would eventually be expensive everywhere.*
+🔑 **"Is anyone home?" was the wrong question. Nobody is ever absent** — there is no scenery
+mode, no waking, and no seam to keep shut: a being always witnessed what reached her and always
+made exactly what her current mind could make of it. **"Scenery" survives only as the informal
+word for a being running the cheapest mind.** ⇒ *Aliveness is not a yes/no — and it has no
+top.*
 
-⚠️ *What wakes a being, what puts them back to sleep, and what is true of a sleeping one are the
-**liveness rule**, and are not yet settled — see the map. **Cost tracks this and not
-population***: the same twenty-five beings cost several times more in a busy hour than a quiet
-one.
+**The liveness rule is what moves a being between minds when events warrant.** The author sets
+the defaults and outranks it always. 🔴 **It moves beings when it matters, never to pay a
+bill** — making a world cheaper is the author's act alone. ⚠️ *Its triggers — what earns a
+deeper mind, what hands back a cheaper one — are the being plugin's own business, not this
+glossary's.*
 
-🔑 **Scenery is free; aliveness is metered** — and the meter reads what happened, never how many
-exist. **The world never demotes anyone to pay a bill**: making a world cheaper — people to
-scenery, people out — is the author's act alone. ⇒ *The failure mode of an expensive world is
-time and money, never fidelity.*
+🔑 **A mind swap loses nothing.** What reached her being and what she believes are hers, not the
+mind's — **the incoming mind is handed everything that reached her**, beliefs and witnessed
+record both, so a deeper mind can infer late: *now that I think about it, his sleeves were
+wet.*
+
+**Cost tracks depth and events, never population** — the same beings cost several times more in
+a busy hour than a quiet one. 🔑 **Scenery is free; depth is metered** — and the meter reads
+what happened, never how many exist. ⇒ *The failure mode of an expensive world is time and
+money, never fidelity.*
 
 ## Confabulation
 
@@ -352,3 +366,7 @@ Kept only so that a word appearing in an older ticket can be looked up.
   different times. Use those.
 - **Visitor** — an outside-but-present third position. **Retired while settling the author's
   verbs**: you are either outside the world or someone in it.
+- **Scenery (as a mode)** — *a state a being was in — "a life happening with nobody home" —
+  flipped by waking.* **Retired while resolving liveness**: there is no mode — a being is as
+  alive as the mind she is running, and nobody is ever absent. The word survives only
+  informally, for a being on the cheapest mind.
