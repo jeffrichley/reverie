@@ -145,6 +145,9 @@ authorial residue ever steers a regrown week.*
 Something that occurred in a world. **The world's own record of it** — as distinct from what
 anyone makes of it.
 
+**Only whole happenings are ever recorded.** *A step that cannot complete has not happened —
+which is why a world missing something stalls rather than limps (see **Stall**).*
+
 **Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
 — nobody looks for a person behind those.
 
@@ -225,6 +228,25 @@ of a tick is the cost of what happened in it.
 set — a vectorized crowd sim holds millions, an LLM-backed conversation holds a dinner table,
 and both are Reverie worlds. *Every published number in the field is a configuration somebody
 chose.*
+
+## Stall
+
+**A world that cannot take its next step takes no step.** When a thing the world depends on
+stops answering, the step in flight never completes — and a step that cannot complete has not
+happened, so time never advances past it. **The world halts at the moment a step needs the
+missing thing, never at the moment of death** — a dead plugin nothing consults costs nothing
+yet — **and it never limps**: the platform will no more run a world half-fed than load one.
+
+🔑 **From inside, a stall is indistinguishable from a slow moment.** No time passes during an
+outage, so nobody in the world can ever witness one. ⇒ **An outage is not a happening — it
+happened *to* the world, not in it.** It lands in the **platform's own ledger**, where the
+world can always name what it is missing — at any moment, not just at load. *A plugin swap
+lands in the same ledger, which is what keeps a replay break detectable across the change.*
+
+**Coming back is not a branch.** The in-flight step simply happens now — its first roll, not a
+re-roll — and sim time is continuous across any outage: the gap is visible only from outside.
+**A present human is told the world has stalled and what is missing; nothing they caused is
+lost; their being experienced nothing.**
 
 ---
 
