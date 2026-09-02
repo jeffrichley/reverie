@@ -100,6 +100,13 @@ author stated, which the generation that ships in the box does.
 **A plugin's facts are sealed by default and exposed by its choice — the core withholds
 nothing; it simply holds.**
 
+**A plugin's facts are sealed by default and exposed by choice.** Meaning flows only through
+what it exposes, and seams nest — what it owes the strangers reading its exposed vocabulary is
+not settled; see the map.
+
+**A plugin names what it needs, and the platform will not load it half-fed.** ⇒ *No plugin ever
+faces another's absence — and a world can always name what it is carrying and what is missing.*
+
 📌 **The model is Eclipse and VSCode**, deliberately: a thin core, an ecosystem, and no central
 permission to build on it. *Eclipse's own core is a workspace and a plugin loader; the IDE is
 plugins. **Reverie's core being small and dull is the model working**, not a warning sign.*
@@ -140,6 +147,22 @@ it happened.
 A branch sweeps everything after its point — the author's own acts included — *so no
 authorial residue ever steers a regrown week.*
 
+## Thing
+
+**What a world is made of.** The core's promise about it is **identity**: anything once in a
+world is referable forever, by every plugin, without coordination.
+
+🔑 **Reference is the nameplate, not the contents.** Pointing at a thing grants nothing of any
+plugin's facts about it — what it grants is that all the public record is about *the same*
+thing. *The weather plugin wets the island the beings stand on; neither reads a byte of the
+other's data.*
+
+**A thing's existence is public** — its arrival is a happening. **Reference outlives
+existence**: the record may mention the hut that burned down, and beings may hold beliefs about
+the dead.
+
+⚠️ **What kinds of things exist is a seam.** The core promises only identity.
+
 ## Happening
 
 Something that occurred in a world. **The world's own record of it** — as distinct from what
@@ -148,9 +171,29 @@ anyone makes of it.
 **Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
 — nobody looks for a person behind those.
 
+**Nothing happens anonymously.** Every happening carries its origin — the author, generation, a
+plugin, a rewind — and the author's marks are visible only to the author.
+
+⚠️ **Happenings are never sealable.** They are the shared world; sealing is for facts.
+
 🔑 *(being plugin)* **A happening a being would attribute to a person requires a person inside the
 world to have done it.** ⇒ *So there is no speaking from nowhere — and in a world where there
 were, nobody could be lied to.*
+
+## Fact
+
+**Something that is true of a thing, now** — as distinct from the happening that made it so.
+
+**Owned by the plugin that stated it · sealed by default · exposed by choice.** Unexposed means
+invisible plugin-to-plugin — 🔑 **and never invisible to the platform or the author.**
+
+🔑 **Every fact became true by a happening.** Backstory is no exception: *"he has always feared
+snakes"* became true at the moment he arrived carrying it.
+
+⇒ **The interlock of the three:** things give facts and happenings something shared to be
+about; happenings are how anything comes to exist or become true; facts are what is true
+because of them. *The fire (happening) makes the hut (thing) burned (fact).* The being plugin
+is just a customer — a belief is its fact about a thing or a happening.
 
 ## Ground truth
 
@@ -168,8 +211,18 @@ later — and **a lie is only a lie if there is a fact for it to contradict.**
 **What came before what.** The platform owns this and requires it — provenance is worthless
 without it, and *"she already knew by Tuesday"* is unanswerable.
 
+🔑 **For any two happenings, the record says which came first.** Simultaneity may be true in the
+fiction; the record underneath is never ambiguous.
+
 ⚠️ **The platform does not know what a tick MEANS.** A day, a turn, an hour — that is the
 world's. *Require the structure, leave the meaning.*
+
+## Time
+
+**It passes on its own unless told otherwise · it can be held still · it can be told how far to
+advance · it can be rewound.** The world owns what a tick means.
+
+⚠️ **Speed is presentation.** *"Faster" is a way of watching, and ways to see are plugins.*
 
 ## Append-only
 
@@ -192,6 +245,33 @@ truth layer — and a branch is recorded, never silent.*
 stays escaped, the record never lies about it, and the new branch simply does not contain it.
 **How many days and happenings a branch abandons is always knowable before branching**;
 showing it is a view's business.
+
+🔑 **Rewind is a thing that happens, not a thing that unhappens.** The record gains *"the author
+went back to Tuesday"*; Wednesday-that-was stays on the tape, readable by the author forever;
+the story continues from Tuesday. **Append-only and rewind never conflict.**
+
+**Every plugin inherits rewind automatically** — living in the record *is* supporting rewind,
+and there is no opt-out. **Irrevocable** happenings are the only exception, and they scar
+rather than undo.
+
+## Pinned
+
+**A mark the author puts on a fact: nothing generated will ever contradict it, in any branch** —
+including the branch that starts after a rewind.
+
+🔑 **Adoption counts.** A pin protects what the author wrote *and* what generation invented and
+the author claimed — *"keep that."*
+
+⚠️ **Happenings never need pins.** The past cannot be contradicted; only the future can be lost.
+*An unpinned detail may not recur after a rewind; a pinned one must.*
+
+## Irrevocable
+
+**A mark on a happening whose effects reach outside the world** — a model call made, money
+spent.
+
+🔑 **The core's one promise about it: no rewind ever pretends it didn't happen.** It stays
+spent, and the scar records it.
 
 ## Replay
 
@@ -399,9 +479,10 @@ floor its author set.**
 ⇒ *Without it, the interesting thing about a world that runs unattended is also the thing that
 destroys it.*
 
-⚠️ **This term straddles the layers and is filed here provisionally.** *"A world cannot end" looks
-like the core's; "how empty, of what" is whatever supplies a population. Its fail-closed default
-is **one**, which is the core half restated.*
+✅ **The straddle is settled.** **"A world cannot end" is the core's** — the record never closes,
+and time can always advance. **"How empty, of what" is this plugin's** — the core does not know
+what a being is. ⇒ *A world with no being plugin has no floor: nothing to count, and that is
+fine, not broken.* Its fail-closed default is **one**.
 
 ---
 
