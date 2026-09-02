@@ -267,6 +267,21 @@ cheap being.
 What a being holds true, together with **how it came to them** — observed, told, inferred,
 confabulated — and from whom.
 
+**That provenance is written true at formation, and it is the author's view** — what a
+mind-swap hands over, what the chain view renders. **What *she* holds about where a belief
+came from is another belief** — plantable, wrong, confabulated like any other. ⇒ *"Who told
+you?" is always answered by her account, never by the record* — two of nine genuinely do not
+remember being told, and the record still says *told, by Cass*.
+
+🔑 **From inside, the most anyone can ever recover is the last hop.** A telling she witnessed
+is a happening on her record forever — **fading is a mind's; the tape never fades** — while
+the hop before her reached her nowhere, so it is sealed away by design: **a rumour launders
+itself across hops structurally, one hop at a time, under any mind.** Whether the hop she
+*did* witness stays reachable is the mind's business — permitted, never promised — so
+traceable rumours and self-laundering ones are both an author's choice of minds. ⚠️ *A trace
+never surfaces the author: a planted telling traces to the being who spoke, and an
+outside-caused happening has no teller.*
+
 **Beliefs are the only social state there is.** There is no relationship primitive: *"they are
 married"* is not stored, it is what you get when you read two beings' beliefs together.
 
