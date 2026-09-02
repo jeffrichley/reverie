@@ -100,10 +100,6 @@ author stated, which the generation that ships in the box does.
 **A plugin's facts are sealed by default and exposed by its choice — the core withholds
 nothing; it simply holds.**
 
-**A plugin's facts are sealed by default and exposed by choice.** Meaning flows only through
-what it exposes, and seams nest — what it owes the strangers reading its exposed vocabulary is
-not settled; see the map.
-
 **A plugin names what it needs, and the platform will not load it half-fed.** ⇒ *No plugin ever
 faces another's absence — and a world can always name what it is carrying and what is missing.*
 
@@ -168,11 +164,14 @@ the dead.
 Something that occurred in a world. **The world's own record of it** — as distinct from what
 anyone makes of it.
 
+**Only whole happenings are ever recorded.** *A step that cannot complete has not happened —
+which is why a world missing something stalls rather than limps (see **Stall**).*
+
 **Some happenings have a doer and some do not.** It rains, the boat does not come, a tree falls
 — nobody looks for a person behind those.
 
 **Nothing happens anonymously.** Every happening carries its origin — the author, generation, a
-plugin, a rewind — and the author's marks are visible only to the author.
+plugin, a branch — and the author's marks are visible only to the author.
 
 ⚠️ **Happenings are never sealable.** They are the shared world; sealing is for facts.
 
@@ -246,31 +245,12 @@ stays escaped, the record never lies about it, and the new branch simply does no
 **How many days and happenings a branch abandons is always knowable before branching**;
 showing it is a view's business.
 
-🔑 **Rewind is a thing that happens, not a thing that unhappens.** The record gains *"the author
-went back to Tuesday"*; Wednesday-that-was stays on the tape, readable by the author forever;
-the story continues from Tuesday. **Append-only and rewind never conflict.**
-
-**Every plugin inherits rewind automatically** — living in the record *is* supporting rewind,
-and there is no opt-out. **Irrevocable** happenings are the only exception, and they scar
-rather than undo.
-
-## Pinned
-
-**A mark the author puts on a fact: nothing generated will ever contradict it, in any branch** —
-including the branch that starts after a rewind.
-
-🔑 **Adoption counts.** A pin protects what the author wrote *and* what generation invented and
-the author claimed — *"keep that."*
-
-⚠️ **Happenings never need pins.** The past cannot be contradicted; only the future can be lost.
-*An unpinned detail may not recur after a rewind; a pinned one must.*
-
 ## Irrevocable
 
 **A mark on a happening whose effects reach outside the world** — a model call made, money
 spent.
 
-🔑 **The core's one promise about it: no rewind ever pretends it didn't happen.** It stays
+🔑 **The core's one promise about it: no branch ever pretends it didn't happen.** It stays
 spent, and the scar records it.
 
 ## Replay
@@ -305,6 +285,25 @@ of a tick is the cost of what happened in it.
 set — a vectorized crowd sim holds millions, an LLM-backed conversation holds a dinner table,
 and both are Reverie worlds. *Every published number in the field is a configuration somebody
 chose.*
+
+## Stall
+
+**A world that cannot take its next step takes no step.** When a thing the world depends on
+stops answering, the step in flight never completes — and a step that cannot complete has not
+happened, so time never advances past it. **The world halts at the moment a step needs the
+missing thing, never at the moment of death** — a dead plugin nothing consults costs nothing
+yet — **and it never limps**: the platform will no more run a world half-fed than load one.
+
+🔑 **From inside, a stall is indistinguishable from a slow moment.** No time passes during an
+outage, so nobody in the world can ever witness one. ⇒ **An outage is not a happening — it
+happened *to* the world, not in it.** It lands in the **platform's own ledger**, where the
+world can always name what it is missing — at any moment, not just at load. *A plugin swap
+lands in the same ledger, which is what keeps a replay break detectable across the change.*
+
+**Coming back is not a branch.** The in-flight step simply happens now — its first roll, not a
+re-roll — and sim time is continuous across any outage: the gap is visible only from outside.
+**A present human is told the world has stalled and what is missing; nothing they caused is
+lost; their being experienced nothing.**
 
 ---
 
